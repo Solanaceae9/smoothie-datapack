@@ -1,0 +1,3 @@
+kill @s
+execute if entity @p[gamemode=survival] run summon item ~ ~0.5 ~ {Invulnerable:1b,Tags:["meat"],Item:{id:"minecraft:item_frame",count:1,components:{"minecraft:item_name":"meat","minecraft:item_model":"icing:meat","minecraft:entity_data":{id:"minecraft:item_frame",Item:{id:"minecraft:item_frame",count:1,components:{"minecraft:item_model":"icing:meat"}},Fixed:1b,Invisible:1b,Invulnerable:1b,Tags:["meat"]}}}}
+execute if entity @p[gamemode=survival] run kill @e[type=experience_orb,distance=..1,sort=nearest]

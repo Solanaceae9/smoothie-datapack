@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=ice_machine] at @s if predicate icing:freeze_check run function icing:ice_machine/freeze
