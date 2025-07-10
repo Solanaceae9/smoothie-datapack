@@ -20,11 +20,11 @@
   "result": {
     "id": "minecraft:clock",
     "components": {
-      "minecraft:item_model": "icing:shades",
+      "minecraft:item_model": "smoothie:shades",
       "minecraft:item_name": "Shades (⌐■_■)",
       "minecraft:equippable": {
         "slot": "head",
-        "camera_overlay": "icing:overlay/shades",
+        "camera_overlay": "smoothie:overlay/shades",
         "equip_on_interact": true
       }
     }
