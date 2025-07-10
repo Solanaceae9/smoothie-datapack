@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "display": {
+		"gui": {
+			"scale": [3.4, 3.4, 1]
+		}
+	},
+    "textures": {
+        "layer0": "icing:item/menu/ice_crystal_1"
+    }
+}
