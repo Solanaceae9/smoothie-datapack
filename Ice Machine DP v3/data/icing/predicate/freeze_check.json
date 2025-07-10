@@ -1,0 +1,24 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:water",
+        "state": {
+          "level": "0"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": "dropper",
+        "nbt": "{Items:[{id:'minecraft:redstone'}]}",
+        "components": {}
+      }
+    }
+  }
+]
