@@ -2,7 +2,7 @@
 clear @p barrier[minecraft:custom_data={gui_item:1}]
 
 #Delete all menu items that are on the floor
-kill @e[type=item,distance=..3,limit=7,sort=nearest,nbt={Item:{id:"minecraft:barrier"}}]
+kill @e[type=item,distance=..3,limit=1,sort=nearest,nbt={Item:{id:"minecraft:barrier"}}]
 
 #Copy items of machine to a "return" storage
 data modify storage ice return set from block ~ ~ ~ Items
