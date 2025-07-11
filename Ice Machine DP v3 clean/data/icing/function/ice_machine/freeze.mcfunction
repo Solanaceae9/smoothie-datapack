@@ -1,1 +1,0 @@
-execute as @e[tag=ice_machine] if score @s IceFuel matches 1.. run execute at @s if block ~ ~1 ~ minecraft:water[level=0] run setblock ~ ~1 ~ ice
